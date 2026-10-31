@@ -1,44 +1,44 @@
-# Arman Naderi
+Arman Naderi
 
-Computer Science student at George Mason University • Cloud security • Builder
+Computer Science student at George Mason University • Software engineering • Builder
 
-[![Portfolio](https://img.shields.io/badge/View_My_Portfolio-2ea44f?style=for-the-badge&logoColor=white)](https://arman-portfolio-red.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/arman-naderi123)
+Portfolio LinkedIn
 
----
+About Me
+Studying Computer Science at George Mason University (class of 2029)
+I write software for reliable, testable systems: small modules, clear interfaces, tests that run anywhere
+Working in Python and Java, building toward C++ and backend services
+Looking for software engineering internships with defense and government contractors in the Northern Virginia area
+Tech Stack
 
-### About Me
+Languages
 
-- Studying **Computer Science** at George Mason University (class of 2029)
-- I build cloud security tooling in Python: detection logic that runs the same way on a laptop and in AWS
-- Hold **AWS Certified Cloud Practitioner** and **ISC2 Certified in Cybersecurity (CC)**
-- Interested in cloud security, detection engineering, and the Northern Virginia defense and government tech ecosystem
+Show Image Show Image Show Image Show Image Show Image
 
----
+Python and JavaScript: used in projects. Java and C: used in coursework. SQL: basics.
 
-### Tech Stack
+Tools
 
-**Languages**
+Show Image Show Image Show Image Show Image
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+Featured Projects
 
-**Cloud & Security**
+CloudTrail Detection Pipeline
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-C8102E?style=flat-square&logoColor=white)
+Event-driven pipeline (CloudTrail → S3 → Lambda) that runs 6 detection rules over JSON logs and outputs severity-scored findings. The core logic is pure Python with no I/O, so the same code runs in a unit test, a local CLI, and a Lambda function. Covered by 9 pytest tests, including a false-positive guard. Python AWS Lambda AWS SAM pytest
 
-**Tools**
+Worknite HR Platform (MetroStar x Salesforce hackathon)
 
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+Led a 5-person team building an HR management MVP. I built the web frontend and connected it to a Salesforce backend. JavaScript HTML/CSS Salesforce
 
----
+Personal Portfolio
 
-### Featured Projects
+Site with project write-ups and resume, deployed on Vercel. HTML CSS JavaScript
 
-**[AWS CloudTrail Detection Pipeline](https://github.com/ArmanNaderi/cloudtrail-detection-pipeline)**
-> Event-driven serverless pipeline (CloudTrail → S3 → Lambda) that runs 6 detection rules over CloudTrail logs and emits severity-scored findings mapped to MITRE ATT&CK. The detection core is pure Python, so the same code runs in a unit test, a local CLI, and a deployed Lambda. Covered by 9 pytest tests, including a benign-traffic false-positive guard. `Python` `AWS Lambda` `S3` `CloudTrail` `AWS SAM`
+Currently Building
 
-**[Personal Portfolio](https://arman-portfolio-red.vercel.app)**
-> Site with project write-ups and resume, deployed on Vercel. `HTML` `CSS` `JavaScript`
+Planned work, not finished yet. Links go live as each repo is published.
+
+Java: multithreaded log processor with JUnit tests
+Backend: REST API with a SQL database, containerized with Docker, tested in CI
+C++: command-line log parser with CMake and GoogleTest
